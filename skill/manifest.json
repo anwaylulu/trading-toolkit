@@ -1,0 +1,46 @@
+{
+  "name": "trading-toolkit",
+  "version": "1.0.0",
+  "description": "Complete trading infrastructure: exchanges, bots, quant engines, prediction markets",
+  "author": "Trading Toolkit Community",
+  "license": "MIT",
+  "requires": {
+    "python": ">=3.12.0",
+    "node": ">=18.0.0",
+    "go": ">=1.21.0"
+  },
+  "install": "./install.sh",
+  "examples": [
+    "examples/ccxt_quickstart.py",
+    "examples/freqtrade_strategy_template.py",
+    "examples/polymarket_trading.py"
+  ],
+  "commands": {
+    "install": "./install.sh",
+    "setup-env": "./scripts/setup-env.sh",
+    "test": "python3 examples/ccxt_quickstart.py"
+  },
+  "tags": [
+    "trading",
+    "crypto",
+    "quant",
+    "prediction-markets",
+    "automation",
+    "freqtrade",
+    "hummingbot",
+    "ccxt",
+    "polymarket"
+  ],
+  "integrations": [
+    "ccxt",
+    "freqtrade",
+    "hummingbot",
+    "nautilus-trader",
+    "py-clob-client",
+    "polymarket-py",
+    "kalshi-python",
+    "web3",
+    "nofx",
+    "pmxt"
+  ]
+}
