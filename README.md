@@ -9,13 +9,13 @@ English
 The global algorithmic trading market is projected to reach $31.2 billion by 2028, growing at a CAGR of 10.9% (Grand View Research, 2023). Concurrently, AI agents in financial markets have demonstrated 15-25% improvement in execution efficiency compared to traditional algorithms (JPMorgan AI Research, 2024). This toolkit synthesizes battle-tested open-source components into a cohesive research and production environment for quantitative researchers and AI practitioners.
 ⚡ Quick Start
 bash
-复制
+
 # Clone and install
 git clone https://github.com/anwaylulu/trading-toolkit.git 
 cd trading-toolkit
 ./install.sh
 📦 Component Architecture
-表格
+
 Component	Purpose	Language	Maturity	GitHub Stars
 CCXT	Unified API abstraction for 100+ exchanges	Python	Production	32k+
 Freqtrade	Rule-based automated trading framework	Python	Stable	28k+
@@ -25,7 +25,7 @@ Polymarket	Decentralized prediction market interface	Python	Experimental	—
 NOFX	LLM-driven autonomous trading agent	Go	Alpha	—
 PMXT	Prediction market analytics toolkit	TypeScript	Beta	—
 🎯 Research Applications
-表格
+
 Domain	Methodology	Expected Latency	Data Throughput
 Cryptocurrency Spot/Futures	Statistical arbitrage, momentum	50-200ms	10k+ ticks/sec
 Quantitative Strategy Research	Event-driven backtesting	N/A (simulated)	Historical OHLCV
@@ -53,7 +53,7 @@ Reproducible benchmark results
 MIT License — See LICENSE
 If this toolkit contributes to your research, please cite:
 plain
-复制
+
 @software{trading_toolkit_2024,
   author = {Anway Lulu},
   title = {Trading Toolkit for AI Agents},
@@ -64,7 +64,7 @@ plain
 研究背景与动机
 根据Grand View Research（2023）的预测，全球算法交易市场规模预计将于2028年达到312亿美元，复合年增长率（CAGR）为10.9%。与此同时，摩根大通AI研究院（2024）的实证研究表明，AI智能体在金融市场的执行效率较传统算法提升15-25%。本工具包旨在为量化研究者与AI实践者提供经过生产环境验证的开源组件整合框架。
 核心组件
-表格
+
 组件	功能定位	开发语言	成熟度指标	社区规模
 CCXT	统一交易所API抽象层	Python	生产级	32k+ Stars
 Freqtrade	规则化自动交易框架	Python	稳定版	28k+ Stars
@@ -74,7 +74,7 @@ Polymarket	去中心化预测市场接口	Python	实验性	—
 NOFX	大语言模型驱动交易智能体	Go	早期版本	—
 PMXT	预测市场分析工具集	TypeScript	测试版	—
 应用场景与性能基准
-表格
+
 应用领域	方法论	延迟要求	数据吞吐量
 加密货币现货/合约交易	统计套利、动量策略	50-200毫秒	10k+ 报价/秒
 量化策略研究	事件驱动回测	N/A（模拟环境）	历史OHLCV数据
@@ -83,7 +83,7 @@ PMXT	预测市场分析工具集	TypeScript	测试版	—
 AI智能体集成	强化学习、LLM推理	动态可变	多模态输入
 快速安装与验证
 bash
-复制
+
 # 克隆仓库
 git clone https://github.com/anwaylulu/trading-toolkit.git 
 cd trading-toolkit
@@ -102,7 +102,7 @@ python -c "import ccxt; print('CCXT版本:', ccxt.__version__)"
 代码审计要求：实盘部署前须经同行评审
 引用格式
 plain
-复制
+
 @software{trading_toolkit_2024,
   author = {Anway Lulu},
   title = {Trading Toolkit for AI Agents},
